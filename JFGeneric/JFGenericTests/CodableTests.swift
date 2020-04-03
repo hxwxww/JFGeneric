@@ -105,7 +105,7 @@ class CodableTests: XCTestCase {
         print(students)
         XCTAssertEqual(students[0].age, 20)
         XCTAssertEqual(students[1].name, "Orange")
-        XCTAssertEqual(students[2].score, 15)
+        XCTAssertEqual(students[2].score, 99)
     }
 
 }

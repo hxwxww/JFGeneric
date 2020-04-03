@@ -76,7 +76,7 @@ extension KeyedDecodingContainerProtocol {
     }
 }
 
-public struct StringPacked<Value: LosslessStringConvertible>: Codable {
+struct StringPacked<Value: LosslessStringConvertible>: Codable {
     
     let value: Value
     
