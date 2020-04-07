@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA3D2DA3243C6AE600618C70 /* IBLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DA2243C6AE600618C70 /* IBLoadable.swift */; };
+		AA3D2DA5243C6B8500618C70 /* UIColor+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DA4243C6B8500618C70 /* UIColor+JF.swift */; };
+		AA3D2DA7243C6C2100618C70 /* String+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DA6243C6C2100618C70 /* String+JF.swift */; };
+		AA3D2DAB243C6D5900618C70 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DAA243C6D5900618C70 /* StringTests.swift */; };
+		AA3D2DAD243C724E00618C70 /* UIView+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DAC243C724E00618C70 /* UIView+JF.swift */; };
+		AA3D2DAF243C740900618C70 /* Array+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DAE243C740900618C70 /* Array+JF.swift */; };
+		AA3D2DB3243C770E00618C70 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DB2243C770E00618C70 /* ArrayTests.swift */; };
 		AAB63D522436D6300020E8C9 /* JFGeneric.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB63D502436D6300020E8C9 /* JFGeneric.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAB63D602436D7830020E8C9 /* JFGenericTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB63D5F2436D7830020E8C9 /* JFGenericTests.swift */; };
 		AAB63D622436D7830020E8C9 /* JFGeneric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB63D4D2436D6300020E8C9 /* JFGeneric.framework */; };
 		AAB63D692436D7A10020E8C9 /* Codable+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB63D682436D7A10020E8C9 /* Codable+JF.swift */; };
 		AAB63D6B2436DF310020E8C9 /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB63D6A2436DF310020E8C9 /* CodableTests.swift */; };
+		AAB63D712437090F0020E8C9 /* Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB63D702437090F0020E8C9 /* Reuseable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA3D2DA2243C6AE600618C70 /* IBLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBLoadable.swift; sourceTree = "<group>"; };
+		AA3D2DA4243C6B8500618C70 /* UIColor+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+JF.swift"; sourceTree = "<group>"; };
+		AA3D2DA6243C6C2100618C70 /* String+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+JF.swift"; sourceTree = "<group>"; };
+		AA3D2DAA243C6D5900618C70 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		AA3D2DAC243C724E00618C70 /* UIView+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+JF.swift"; sourceTree = "<group>"; };
+		AA3D2DAE243C740900618C70 /* Array+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+JF.swift"; sourceTree = "<group>"; };
+		AA3D2DB2243C770E00618C70 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 		AAB63D4D2436D6300020E8C9 /* JFGeneric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JFGeneric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB63D502436D6300020E8C9 /* JFGeneric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFGeneric.h; sourceTree = "<group>"; };
 		AAB63D512436D6300020E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +48,7 @@
 		AAB63D612436D7830020E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB63D682436D7A10020E8C9 /* Codable+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+JF.swift"; sourceTree = "<group>"; };
 		AAB63D6A2436DF310020E8C9 /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTests.swift; sourceTree = "<group>"; };
+		AAB63D702437090F0020E8C9 /* Reuseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reuseable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +101,8 @@
 		AAB63D582436D66E0020E8C9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AAB63D682436D7A10020E8C9 /* Codable+JF.swift */,
+				AAB63D6F243708D80020E8C9 /* Extensions */,
+				AAB63D72243709130020E8C9 /* Protocols */,
 			);
 			name = Sources;
 			path = ../../Sources;
@@ -96,9 +113,32 @@
 			children = (
 				AAB63D5F2436D7830020E8C9 /* JFGenericTests.swift */,
 				AAB63D6A2436DF310020E8C9 /* CodableTests.swift */,
+				AA3D2DAA243C6D5900618C70 /* StringTests.swift */,
+				AA3D2DB2243C770E00618C70 /* ArrayTests.swift */,
 				AAB63D612436D7830020E8C9 /* Info.plist */,
 			);
 			path = JFGenericTests;
+			sourceTree = "<group>";
+		};
+		AAB63D6F243708D80020E8C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAB63D682436D7A10020E8C9 /* Codable+JF.swift */,
+				AA3D2DA4243C6B8500618C70 /* UIColor+JF.swift */,
+				AA3D2DA6243C6C2100618C70 /* String+JF.swift */,
+				AA3D2DAC243C724E00618C70 /* UIView+JF.swift */,
+				AA3D2DAE243C740900618C70 /* Array+JF.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AAB63D72243709130020E8C9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AAB63D702437090F0020E8C9 /* Reuseable.swift */,
+				AA3D2DA2243C6AE600618C70 /* IBLoadable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3D2DA3243C6AE600618C70 /* IBLoadable.swift in Sources */,
+				AAB63D712437090F0020E8C9 /* Reuseable.swift in Sources */,
+				AA3D2DAD243C724E00618C70 /* UIView+JF.swift in Sources */,
+				AA3D2DAF243C740900618C70 /* Array+JF.swift in Sources */,
+				AA3D2DA7243C6C2100618C70 /* String+JF.swift in Sources */,
 				AAB63D692436D7A10020E8C9 /* Codable+JF.swift in Sources */,
+				AA3D2DA5243C6B8500618C70 /* UIColor+JF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB63D6B2436DF310020E8C9 /* CodableTests.swift in Sources */,
+				AA3D2DB3243C770E00618C70 /* ArrayTests.swift in Sources */,
+				AA3D2DAB243C6D5900618C70 /* StringTests.swift in Sources */,
 				AAB63D602436D7830020E8C9 /* JFGenericTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
