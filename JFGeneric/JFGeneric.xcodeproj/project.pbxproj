@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA313C58243DB2F5002E9F8F /* Timer+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA313C57243DB2F5002E9F8F /* Timer+JF.swift */; };
 		AA3D2DA3243C6AE600618C70 /* IBLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DA2243C6AE600618C70 /* IBLoadable.swift */; };
 		AA3D2DA5243C6B8500618C70 /* UIColor+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DA4243C6B8500618C70 /* UIColor+JF.swift */; };
 		AA3D2DA7243C6C2100618C70 /* String+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DA6243C6C2100618C70 /* String+JF.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA313C57243DB2F5002E9F8F /* Timer+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer+JF.swift"; sourceTree = "<group>"; };
 		AA3D2DA2243C6AE600618C70 /* IBLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBLoadable.swift; sourceTree = "<group>"; };
 		AA3D2DA4243C6B8500618C70 /* UIColor+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+JF.swift"; sourceTree = "<group>"; };
 		AA3D2DA6243C6C2100618C70 /* String+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+JF.swift"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				AA3D2DA6243C6C2100618C70 /* String+JF.swift */,
 				AA3D2DAC243C724E00618C70 /* UIView+JF.swift */,
 				AA3D2DAE243C740900618C70 /* Array+JF.swift */,
+				AA313C57243DB2F5002E9F8F /* Timer+JF.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				AA3D2DAD243C724E00618C70 /* UIView+JF.swift in Sources */,
 				AA3D2DAF243C740900618C70 /* Array+JF.swift in Sources */,
 				AA3D2DA7243C6C2100618C70 /* String+JF.swift in Sources */,
+				AA313C58243DB2F5002E9F8F /* Timer+JF.swift in Sources */,
 				AAB63D692436D7A10020E8C9 /* Codable+JF.swift in Sources */,
 				AA3D2DA5243C6B8500618C70 /* UIColor+JF.swift in Sources */,
 			);
