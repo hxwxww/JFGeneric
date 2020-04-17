@@ -11,27 +11,27 @@ import UIKit
 extension CGFloat {
     
     /// 屏幕宽度
-    static var screenWidth: CGFloat {
+    public static var screenWidth: CGFloat {
         return UIScreen.main.bounds.width
     }
     
     /// 屏幕高度
-    static var screenHeight: CGFloat {
+    public static var screenHeight: CGFloat {
         return UIScreen.main.bounds.height
     }
     
     /// 状态栏高度
-    static var statusBarHeight: CGFloat {
+    public static var statusBarHeight: CGFloat {
         return UIApplication.shared.statusBarFrame.height
     }
     
     /// 导航栏高度
-    static var navBarHeight: CGFloat {
+    public static var navBarHeight: CGFloat {
         return screenHeight > 400 ? 44 : 32
     }
     
     /// 标签栏高度
-    static var tabBarHeight: CGFloat {
+    public static var tabBarHeight: CGFloat {
         if #available(iOS 11.0, *) {
             if screenHeight < 400 {
                 return 32
@@ -41,7 +41,7 @@ extension CGFloat {
     }
     
     /// 底部HomeIndicator高度
-    static var homeIndicatorHeight: CGFloat {
+    public static var homeIndicatorHeight: CGFloat {
         if UIDevice.isIPhoneX {
             return UIDevice.isPortrait ? 34 : 21
         }
@@ -49,12 +49,12 @@ extension CGFloat {
     }
     
     /// 状态栏和导航栏总高度
-    static var navBarAndStatusBarHeight: CGFloat {
+    public static var navBarAndStatusBarHeight: CGFloat {
         return navBarHeight + statusBarHeight
     }
 
     /// 标签栏和HomeIndicator总高度
-    static var tabBarAndHomeIndicatorHeight: CGFloat {
+    public static var tabBarAndHomeIndicatorHeight: CGFloat {
         return tabBarHeight + homeIndicatorHeight
     }
 }
@@ -62,17 +62,17 @@ extension CGFloat {
 extension CGFloat {
     
     /// 间隔2px
-    static let spacing2: CGFloat = 2
+    public static let spacing2: CGFloat = 2
     
     /// 间隔4px
-    static let spacing4: CGFloat = 4
+    public static let spacing4: CGFloat = 4
     
     /// 间隔8px
-    static let spacing8: CGFloat = 8
+    public static let spacing8: CGFloat = 8
     
     /// 间隔16px
-    static let spacing16: CGFloat = 16
+    public static let spacing16: CGFloat = 16
     
     /// 间隔32px
-    static let spacing32: CGFloat = 32
+    public static let spacing32: CGFloat = 32
 }

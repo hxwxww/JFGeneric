@@ -11,27 +11,27 @@ import UIKit
 extension UIDevice {
     
     /// 是否为iPad
-    static var isIPad: Bool {
+    public static var isIPad: Bool {
         return current.userInterfaceIdiom == .pad
     }
     
     /// 是否为iPhone
-    static var isIPhone: Bool {
+    public static var isIPhone: Bool {
         return current.userInterfaceIdiom == .phone
     }
     
     /// 是否是竖屏
-    static var isPortrait: Bool {
+    public static var isPortrait: Bool {
         return current.orientation == .portrait || current.orientation == .portraitUpsideDown
     }
     
     /// 是否是横屏
-    static var isLandscape: Bool {
+    public static var isLandscape: Bool {
         return current.orientation == .landscapeLeft || current.orientation == .landscapeRight
     }
     
     /// 是否是IPhoneX
-    static var isIPhoneX: Bool {
+    public static var isIPhoneX: Bool {
         let screenHieght = UIScreen.main.bounds.height
         let screenWidth = UIScreen.main.bounds.width
         if screenHieght == 812 || screenHieght == 896 || screenWidth == 812 || screenHieght == 896 {
