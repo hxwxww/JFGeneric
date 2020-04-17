@@ -59,21 +59,6 @@ extension Array {
         }
         return randomElements
     }
-    
-    /// 打乱顺序
-    public mutating func shuffle() {
-        for _ in 0 ..< count {
-            sort { _,_ in arc4random() < arc4random() }
-        }
-    }
-    
-    /// 打乱顺序后的数组
-    public var shuffled: [Element] {
-        var newArr = self
-        newArr.shuffle()
-        return newArr
-    }
-
 }
 
 // MARK: -  subscript

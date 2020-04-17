@@ -15,6 +15,8 @@
 		AA3D2DAD243C724E00618C70 /* UIView+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DAC243C724E00618C70 /* UIView+JF.swift */; };
 		AA3D2DAF243C740900618C70 /* Array+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DAE243C740900618C70 /* Array+JF.swift */; };
 		AA3D2DB3243C770E00618C70 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D2DB2243C770E00618C70 /* ArrayTests.swift */; };
+		AA8B11072449500A0016BA72 /* CGFloat+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B11062449500A0016BA72 /* CGFloat+JF.swift */; };
+		AA8B11092449559F0016BA72 /* UIDevice+JF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B11082449559F0016BA72 /* UIDevice+JF.swift */; };
 		AAB63D522436D6300020E8C9 /* JFGeneric.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB63D502436D6300020E8C9 /* JFGeneric.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAB63D602436D7830020E8C9 /* JFGenericTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB63D5F2436D7830020E8C9 /* JFGenericTests.swift */; };
 		AAB63D622436D7830020E8C9 /* JFGeneric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB63D4D2436D6300020E8C9 /* JFGeneric.framework */; };
@@ -42,6 +44,8 @@
 		AA3D2DAC243C724E00618C70 /* UIView+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+JF.swift"; sourceTree = "<group>"; };
 		AA3D2DAE243C740900618C70 /* Array+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+JF.swift"; sourceTree = "<group>"; };
 		AA3D2DB2243C770E00618C70 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
+		AA8B11062449500A0016BA72 /* CGFloat+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+JF.swift"; sourceTree = "<group>"; };
+		AA8B11082449559F0016BA72 /* UIDevice+JF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+JF.swift"; sourceTree = "<group>"; };
 		AAB63D4D2436D6300020E8C9 /* JFGeneric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JFGeneric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB63D502436D6300020E8C9 /* JFGeneric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFGeneric.h; sourceTree = "<group>"; };
 		AAB63D512436D6300020E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				AA3D2DAC243C724E00618C70 /* UIView+JF.swift */,
 				AA3D2DAE243C740900618C70 /* Array+JF.swift */,
 				AA313C57243DB2F5002E9F8F /* Timer+JF.swift */,
+				AA8B11062449500A0016BA72 /* CGFloat+JF.swift */,
+				AA8B11082449559F0016BA72 /* UIDevice+JF.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -257,9 +263,11 @@
 				AA3D2DA3243C6AE600618C70 /* IBLoadable.swift in Sources */,
 				AAB63D712437090F0020E8C9 /* Reuseable.swift in Sources */,
 				AA3D2DAD243C724E00618C70 /* UIView+JF.swift in Sources */,
+				AA8B11072449500A0016BA72 /* CGFloat+JF.swift in Sources */,
 				AA3D2DAF243C740900618C70 /* Array+JF.swift in Sources */,
 				AA3D2DA7243C6C2100618C70 /* String+JF.swift in Sources */,
 				AA313C58243DB2F5002E9F8F /* Timer+JF.swift in Sources */,
+				AA8B11092449559F0016BA72 /* UIDevice+JF.swift in Sources */,
 				AAB63D692436D7A10020E8C9 /* Codable+JF.swift in Sources */,
 				AA3D2DA5243C6B8500618C70 /* UIColor+JF.swift in Sources */,
 			);

@@ -25,15 +25,6 @@ class ArrayTests: XCTestCase {
         XCTAssertEqual(num, 2)
     }
     
-    func testShuffle() {
-        var array = [1, 2, 3, 4, 5]
-        let shuffled = array.shuffled
-        print("array: \(array), shuffled: \(shuffled)")
-        
-        array.shuffle()
-        print("array: \(array)")
-    }
-    
     func testRemove() {
         var array = [1, 2, 3, 4, 5]
         array.removeElement(1)
