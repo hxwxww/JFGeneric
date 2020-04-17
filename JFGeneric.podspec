@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name            = 'JFGeneric'
-  s.version         = '0.0.3'
+  s.version         = '0.0.4'
   s.summary         = 'A generic swift base package'
 
   s.homepage        = 'https://github.com/hxwxww/JFGeneric'
