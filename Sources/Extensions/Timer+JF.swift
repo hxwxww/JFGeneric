@@ -74,7 +74,7 @@ extension Timer {
         static var interval = "interval"
     }
     
-    private var remainingCount: Int? {
+    public var remainingCount: Int? {
         set {
             objc_setAssociatedObject(self, &AssociatedKeys.remainingCount, newValue, .OBJC_ASSOCIATION_RETAIN)
         }
@@ -83,7 +83,7 @@ extension Timer {
         }
     }
     
-    private var interval: TimeInterval {
+    public var interval: TimeInterval {
         set {
             objc_setAssociatedObject(self, &AssociatedKeys.interval, newValue, .OBJC_ASSOCIATION_RETAIN)
         }
@@ -122,8 +122,8 @@ extension Timer {
         timer = CFRunLoopTimerCreateWithHandler(kCFAllocatorDefault, CFAbsoluteTimeGetCurrent() + interval.value, intervalValue, 0, 0) { aTimer in
             guard let aTimer = aTimer else { return }
             let t = aTimer as Timer
-            handler(t)
             t.calculateRemainingCount()
+            handler(t)
         }
         
         timer.remainingCount = mode.repeatCount
